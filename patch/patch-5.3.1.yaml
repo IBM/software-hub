@@ -381,10 +381,6 @@ patch_components_meta:
     csv_version: 12.1.2
     cr_version: 5.3.2
 
-  ws_runtimes:
-    case_version: 12.1.1
-    cr_version: 12.1.1
-
   openscale:
     case_version: 10.1.2
     sub_channel: "v9.1"
