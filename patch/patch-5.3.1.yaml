@@ -377,3 +377,6 @@ patch_components_meta:
     sub_channel: "v6.4"
     csv_version: 6.4.5
     cr_version: 6.4.5
+ibm_wxd_opensearch:
+    case_version: 3.3.3
+    cr_version: 3.3.3
