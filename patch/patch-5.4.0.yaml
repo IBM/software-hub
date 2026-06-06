@@ -1,0 +1,8 @@
+patch_components_meta:
+  patch_info:
+    patch_id: 0
+  cpd_platform:
+    case_version: 5.10.0
+    csv_version: 6.10.0
+    sub_channel: "v6.10"
+    cr_version: 5.10.0
