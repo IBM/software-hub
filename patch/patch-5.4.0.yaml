@@ -9,7 +9,7 @@ licenses_urls:
 patch_components_meta:
   patch_info:
     patch_id: 1
-    patch_date: "2026-05-xx" #YYYY-MM-DD TO BE ADJUSTED
+    patch_date: "2026-06-24"
   analyticsengine:
     case_version: 5.4.1
     csv_version: 5.4.1
