@@ -8,130 +8,170 @@ licenses_urls:
 
 patch_components_meta:
   patch_info:
-    patch_id: 1
-    patch_date: "2026-06-24"
+    patch_id: 2
+    patch_date: "2026-07-08"
   analyticsengine:
-    case_version: 5.4.1
-    csv_version: 5.4.1
-    sub_channel: "v5.4.1"
-    cr_version: 5.4.1
-  cpd_platform:
-    case_version: 5.10.0
-    csv_version: 6.10.0
-    sub_channel: "v6.10"
-    cr_version: 5.10.0
-  match360:
-    case_version: 4.12.1
-    csv_version: 4.12.1
-    cr_version: 4.12.50
-    sub_channel: "v4.12"
-  scheduler:
-    case_version: 2.0.1
-    sub_channel: "v2.0"
-    csv_version: 2.0.1
-    cr_version: 2.0.1
-  zen:
-    case_version: 6.10.1
-    sub_channel: "v6.10"
-    csv_version: 6.10.1
-    cr_version: 6.10.1
-  ccs:
-    case_version: 13.0.1
+    case_version: 5.4.2
+    csv_version: 5.4.2
+    sub_channel: "v5.4.2"
+    cr_version: 5.4.2
+  canvasbase:
+    case_version: 13.0.2
     sub_channel: "v13.0"
-    csv_version: 13.0.1
-    cr_version: 13.0.1
+    csv_version: 13.0.2
+    cr_version: 13.0.2
+  ccs:
+    case_version: 13.0.2
+    sub_channel: "v13.0"
+    csv_version: 13.0.2
+    cr_version: 13.0.2
   cognos_analytics:
     case_version: 30.0.1
     sub_channel: "v30.0"
     cr_version: 30.0.1
     csv_version: 30.0.1
+  cpd_platform:
+    case_version: 5.10.0
+    csv_version: 6.10.0
+    sub_channel: "v6.10"
+    cr_version: 5.10.0
   datagate:
-    case_version: 15.4.1
+    case_version: 15.4.2
     sub_channel: "v15.4"
-    csv_version: 15.4.1
-    cr_version: 15.4.1
+    csv_version: 15.4.2
+    cr_version: 15.4.2
+  datalineage:
+    case_version: 5.4.2
+    sub_channel: "v8.2"
+    csv_version: 5.4.2
+    cr_version: 5.4.2
+  dataproduct:
+    case_version: 5.4.2
+    sub_channel: "v9.2"
+    csv_version: 5.4.2
+    cr_version: 5.4.2
+  datarefinery:
+    case_version: 13.0.2
+    cr_version: 13.0.2
+    operator_version: 13.0.2
   datastage_ent:
-    case_version: 12.0.1
-    sub_channel: "v10.1"
-    csv_version: 10.0.1
-    cr_version: 5.4.1
+    case_version: 12.0.2
+    sub_channel: "v10.2"
+    csv_version: 10.0.2
+    cr_version: 5.4.2
   datastage_ent_plus:
-    case_version: 12.0.1
-    sub_channel: "v10.1"
-    csv_version: 10.0.1
+    case_version: 12.0.2
+    sub_channel: "v10.2"
+    csv_version: 10.0.2
+    cr_version: 5.4.2
+  dmc:
+    case_version: 8.12.1
+    csv_version: 5.12.1
     cr_version: 5.4.1
-  mantaflow:
-    case_version: 2.5.1
-    csv_version: 2.5.1
-    sub_channel: "v2.51"
-    cr_version: 42.16.1
+    sub_channel: "v5.12"
+  dods:
+    case_version: 13.0.2
+    cr_version: 13.0.2
   dp:
-    case_version: 12.0.1
-    csv_version: 12.0.1
-    sub_channel: "v12.1"
+    case_version: 12.0.2
+    csv_version: 12.0.2
+    sub_channel: "v12.2"
+    cr_version: 5.4.2
+  factsheet:
+    case_version: 8.0.1
+    operator_version: 8.0.1
     cr_version: 5.4.1
-  ibm_neo4j:
-    case_version: 1.4.1
-    sub_channel: "v5.1"
-    csv_version: 1.4.1
-    cr_version: 1.4.1
-  watsonx_dataintegration:
-    case_version: 2.5.1
-    cr_version: 2.4.1
-  watsonx_dataintelligence:
-    case_version: 2.4.1
-    sub_channel: "v2.41"
-    csv_version: 2.4.1
-    cr_version: 2.4.1
-  udp:
+  fdb_k8s:
+    csv_version: 5.4.2
+    sub_channel: "v5.4"
+  hee:
     case_version: 5.4.1
     sub_channel: "v5.41"
     csv_version: 5.4.1
     cr_version: 5.4.1
-  dataproduct:
-    case_version: 5.4.1
-    sub_channel: "v9.1"
-    csv_version: 5.4.1
-    cr_version: 5.4.1
-  datalineage:
-    case_version: 5.4.1
-    sub_channel: "v8.1"
-    csv_version: 5.4.1
-    cr_version: 5.4.1
-  wkc:
-    case_version: 5.4.1
-    sub_channel: "v10.1"
-    csv_version: 2.4.1
-    cr_version: 5.4.1
-  ws_pipelines:
-    case_version: 13.0.1
-    sub_channel: "v13.0"
-    csv_version: 13.0.1
-    cr_version: 5.4.1
-  opencontent_fdb:
-    case_version: 5.4.1
-    csv_version: 5.4.1
-    cr_version: 5.4.1
-    sub_channel: "v5.4"
-  ikc_standard:
-    case_version: 5.4.1
-    sub_channel: "v9.1"
-    csv_version: 5.4.1
-    cr_version: 5.4.1
-  ikc_premium:
-    case_version: 5.4.1
-    sub_channel: "v9.1"
-    csv_version: 5.4.1
-    cr_version: 5.4.1
-  semantic_automation:
-    case_version: 5.4.1
-    sub_channel: "v9.1"
-    csv_version: 5.4.1
-    cr_version: 5.4.1
+  ibm_neo4j:
+    case_version: 1.4.2
+    sub_channel: "v5.2"
+    csv_version: 1.4.2
+    cr_version: 1.4.2
   ibm_wxd_opensearch:
     case_version: 3.10.1
     operator_version: 3.5.0
     cr_version: 3.10.1
+  ikc_premium:
+    case_version: 5.4.2
+    sub_channel: "v9.2"
+    csv_version: 5.4.2
+    cr_version: 5.4.2
+  ikc_standard:
+    case_version: 5.4.2
+    sub_channel: "v9.2"
+    csv_version: 5.4.2
+    cr_version: 5.4.2
+  mantaflow:
+    case_version: 2.5.2
+    csv_version: 2.5.2
+    sub_channel: "v2.52"
+    cr_version: 42.16.10
+  match360:
+    case_version: 4.12.2
+    csv_version: 4.12.2
+    cr_version: 4.12.51
+    sub_channel: "v4.12"
+  model_gateway:
+    case_version: 13.0.1
+    csv_version: 13.0.1
+    cr_version: 13.0.1
+    sub_channel: "v13.0"
+  opencontent_fdb:
+    case_version: 5.4.2
+    csv_version: 5.4.2
+    cr_version: 5.4.2
+    sub_channel: "v5.4"
+  planning_analytics:
+    case_version: 5.4.1
+    sub_channel: "v12.1"
+    csv_version: 5.4.1
+    cr_version: 5.4.1
+  replication:
+    case_version: 5.4.1
+    operator_version: 8.1.0
+    cr_version: 5.4.1
+  rstudio:
+    case_version: 13.0.2
+    sub_channel: "v13.0"
+    csv_version: 13.0.2
+    cr_version: 13.0.2
+  scheduler:
+    case_version: 2.0.1
+    sub_channel: "v2.0"
+    csv_version: 2.0.1
+    cr_version: 2.0.1
+  semantic_automation:
+    case_version: 5.4.2
+    sub_channel: "v9.2"
+    csv_version: 5.4.2
+    cr_version: 5.4.2
+  spss:
+    case_version: 13.0.2
+    sub_channel: "v13.0"
+    csv_version: 13.0.2
+    cr_version: 13.0.2
+  udp:
+    case_version: 5.4.2
+    sub_channel: "v5.42"
+    csv_version: 5.4.2
+    cr_version: 5.4.2
+  watsonx_ai:
+    case_version: 13.0.1
+    csv_version: 13.0.1
+    cr_version: 13.0.1
+    sub_channel: "v13.0"
+  watsonx_ai_ifm:
+    case_version: 13.0.1
+    csv_version: 13.0.1
+    cr_version: 13.0.1
+    sub_channel: "v13.0"
   watsonx_data:
     case_version: 7.1.0
     sub_channel: "v7.1"
@@ -142,3 +182,55 @@ patch_components_meta:
     sub_channel: "v7.1"
     csv_version: 7.1.0
     cr_version: 2.4.1
+  watsonx_dataintegration:
+    case_version: 2.5.2
+    cr_version: 2.4.2
+  watsonx_dataintelligence:
+    case_version: 2.4.2
+    sub_channel: "v2.42"
+    csv_version: 2.4.2
+    cr_version: 2.4.2
+  watsonx_governance:
+    case_version: 6.0.1
+    operator_version: 6.0.1
+    cr_version: 2.4.1
+  wca:
+    case_version: 5.4.2
+    cr_version: 5.4.2
+    operator_version: 5.4.2
+  wca_ansible:
+    case_version: 5.4.2
+    cr_version: 5.4.2
+    operator_version: 5.4.2
+  wca_base:
+    case_version: 5.4.2
+    cr_version: 5.4.2
+    operator_version: 5.4.2
+  wca_z_agentic:
+    case_version: 2.2.0
+    operator_version: 2.2.0
+    cr_version: 2.8.30
+  wkc:
+    case_version: 5.4.2
+    sub_channel: "v10.2"
+    csv_version: 2.4.2
+    cr_version: 5.4.2
+  wml:
+    case_version: 13.0.1
+    csv_version: 10.0.1
+    sub_channel: "v10.0"
+    cr_version: 5.4.1
+  ws:
+    case_version: 13.0.2
+    cr_version: 13.0.2
+    operator_version: 13.0.2
+  ws_pipelines:
+    case_version: 13.0.2
+    sub_channel: "v13.0"
+    csv_version: 13.0.2
+    cr_version: 5.4.2
+  zen:
+    case_version: 6.10.1
+    sub_channel: "v6.10"
+    csv_version: 6.10.1
+    cr_version: 6.10.1
