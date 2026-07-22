@@ -5,16 +5,32 @@ licenses_urls:
   SWHAI:
     url: "https://ibm.biz/~ZZ2Aobzt9"
     description: "IBM Softare Hub AI Assistant Cartridge"
+  WXDP:
+    url: "https://ibm.biz/~XbAQlhtwO"
+    description: "IBM watsonx.data Premium Edition"
 
 patch_components_meta:
   patch_info:
-    patch_id: 2
-    patch_date: "2026-07-08"
+    patch_id: 3
+    patch_date: "2026-07-22"
   analyticsengine:
     case_version: 5.4.2
     csv_version: 5.4.2
     sub_channel: "v5.4.2"
     cr_version: 5.4.2
+  bigsql:
+    case_version: 15.1.0
+    sub_channel: "v15.1"
+    csv_version: 15.1.0
+    cr_version: 8.5.1
+    block_upgrade_patch:
+      - ">=8.3.5,<8.5.0"
+  
+  br_orchestration:
+    case_version: 5.4.3
+    csv_version: 5.4.3
+    cr_version: 5.4.3
+
   canvasbase:
     case_version: 13.0.2
     sub_channel: "v13.0"
@@ -31,15 +47,19 @@ patch_components_meta:
     cr_version: 30.0.1
     csv_version: 30.0.1
   cpd_platform:
-    case_version: 5.10.0
-    csv_version: 6.10.0
+    case_version: 5.10.3
+    csv_version: 6.10.3
     sub_channel: "v6.10"
-    cr_version: 5.10.0
+    cr_version: 5.10.3
+  dashboard:
+    case_version: 5.0.3
+    csv_version: 5.0.3
+    cr_version: 5.4.3
   datagate:
-    case_version: 15.4.2
+    case_version: 15.4.3
     sub_channel: "v15.4"
-    csv_version: 15.4.2
-    cr_version: 15.4.2
+    csv_version: 15.4.3
+    cr_version: 15.4.3
   datalineage:
     case_version: 5.4.2
     sub_channel: "v8.2"
@@ -55,19 +75,19 @@ patch_components_meta:
     cr_version: 13.0.2
     operator_version: 13.0.2
   datastage_ent:
-    case_version: 12.0.2
-    sub_channel: "v10.2"
-    csv_version: 10.0.2
-    cr_version: 5.4.2
+    case_version: 12.0.3
+    sub_channel: "v10.3"
+    csv_version: 10.0.3
+    cr_version: 5.4.3
   datastage_ent_plus:
-    case_version: 12.0.2
-    sub_channel: "v10.2"
-    csv_version: 10.0.2
-    cr_version: 5.4.2
+    case_version: 12.0.3
+    sub_channel: "v10.3"
+    csv_version: 10.0.3
+    cr_version: 5.4.3
   dmc:
-    case_version: 8.12.1
-    csv_version: 5.12.1
-    cr_version: 5.4.1
+    case_version: 8.12.2
+    csv_version: 5.12.2
+    cr_version: 5.4.2
     sub_channel: "v5.12"
   dods:
     case_version: 13.0.2
@@ -77,6 +97,13 @@ patch_components_meta:
     csv_version: 12.0.2
     sub_channel: "v12.2"
     cr_version: 5.4.2
+  dv:
+    case_version: 9.1.0
+    sub_channel: "v9.1"
+    csv_version: 9.1.0
+    cr_version: 3.4.1
+    block_upgrade_patch:
+      - ">=3.3.5,<3.4.0"
   factsheet:
     case_version: 8.0.1
     operator_version: 8.0.1
@@ -94,10 +121,19 @@ patch_components_meta:
     sub_channel: "v5.2"
     csv_version: 1.4.2
     cr_version: 1.4.2
+  ibm_pg_operator:
+    case_version: 28.3.3
+    sub_channel: "v28"
+    csv_version: 28.3.3
+    cr_version: 28.3.3
   ibm_wxd_opensearch:
     case_version: 3.10.1
     operator_version: 3.5.0
     cr_version: 3.10.1
+  ibm_wxd_openrag:
+    case_version: 1.0.1
+    cr_version: 1.0.1
+    operator_version: 1.0.1
   ikc_premium:
     case_version: 5.4.2
     sub_channel: "v9.2"
@@ -114,9 +150,9 @@ patch_components_meta:
     sub_channel: "v2.52"
     cr_version: 42.16.10
   match360:
-    case_version: 4.12.2
-    csv_version: 4.12.2
-    cr_version: 4.12.51
+    case_version: 4.12.3
+    csv_version: 4.12.3
+    cr_version: 4.12.56
     sub_channel: "v4.12"
   model_gateway:
     case_version: 13.0.1
@@ -128,11 +164,23 @@ patch_components_meta:
     csv_version: 5.4.2
     cr_version: 5.4.2
     sub_channel: "v5.4"
+  opencontent_opensearch:
+    case_version: 1.4.4
+    csv_version: 1.4.4
+    cr_version: 1.4.4
+    sub_channel: "v1.1"
+    operator_version: 1.4.4
+  opencontent_rabbitmq:
+    case_version: 1.4.2
+    csv_version: 1.4.2
+    sub_channel: "v1.0"
+    cr_version: 1.4.2
+    operator_version: 1.4.2
   planning_analytics:
-    case_version: 5.4.1
-    sub_channel: "v12.1"
-    csv_version: 5.4.1
-    cr_version: 5.4.1
+    case_version: 5.4.2
+    sub_channel: "v12.2"
+    csv_version: 5.4.2
+    cr_version: 5.4.2
   replication:
     case_version: 5.4.1
     operator_version: 8.1.0
@@ -143,10 +191,10 @@ patch_components_meta:
     csv_version: 13.0.2
     cr_version: 13.0.2
   scheduler:
-    case_version: 2.0.1
+    case_version: 2.0.2
     sub_channel: "v2.0"
-    csv_version: 2.0.1
-    cr_version: 2.0.1
+    csv_version: 2.0.2
+    cr_version: 2.0.2
   semantic_automation:
     case_version: 5.4.2
     sub_channel: "v9.2"
@@ -173,15 +221,15 @@ patch_components_meta:
     cr_version: 13.0.1
     sub_channel: "v13.0"
   watsonx_data:
-    case_version: 7.1.0
-    sub_channel: "v7.1"
-    csv_version: 7.1.0
-    cr_version: 2.4.1
+    case_version: 7.2.0
+    sub_channel: "v7.2"
+    csv_version: 7.2.0
+    cr_version: 2.4.2
   watsonx_data_premium:
-    case_version: 7.1.0
-    sub_channel: "v7.1"
-    csv_version: 7.1.0
-    cr_version: 2.4.1
+    case_version: 7.2.0
+    sub_channel: "v7.2"
+    csv_version: 7.2.0
+    cr_version: 2.4.2
   watsonx_dataintegration:
     case_version: 2.5.2
     cr_version: 2.4.2
@@ -194,6 +242,10 @@ patch_components_meta:
     case_version: 6.0.1
     operator_version: 6.0.1
     cr_version: 2.4.1
+  watson_speech:
+    case_version: 12.0.3
+    csv_version: 12.0.3
+    cr_version: 5.4.1
   wca:
     case_version: 5.4.2
     cr_version: 5.4.2
@@ -225,12 +277,46 @@ patch_components_meta:
     cr_version: 13.0.2
     operator_version: 13.0.2
   ws_pipelines:
-    case_version: 13.0.2
+    case_version: 13.0.3
     sub_channel: "v13.0"
-    csv_version: 13.0.2
-    cr_version: 5.4.2
+    csv_version: 13.0.3
+    cr_version: 5.4.3
   zen:
-    case_version: 6.10.1
+    case_version: 6.10.3
     sub_channel: "v6.10"
-    csv_version: 6.10.1
-    cr_version: 6.10.1
+    csv_version: 6.10.3
+    cr_version: 6.10.3
+  streamsets:
+    case_version: 10.0.3
+    cr_version: 6.4.3
+    operator_version: 6.4.3
+  datastax_mc:
+    case_version: 1.18.3
+    cr_version: 1.18.3
+    operator_version: 1.18.3
+  db2aaservice:
+    case_version: 5.4.3
+    sub_channel: "v8.1"
+    csv_version: 8.1.0
+    cr_version: 5.4.3
+  db2oltp:
+    case_version: 5.4.3
+    sub_channel: "v8.1"
+    csv_version: 8.1.0
+    cr_version: 5.4.3
+  db2u:
+    case_version: 8.0.1
+    sub_channel: "v8.1"
+    csv_version: 8.1.0
+    cr_version: 8.1.0
+  db2wh:
+    case_version: 5.4.3
+    sub_channel: "v8.1"
+    csv_version: 8.1.0
+    cr_version: 5.4.3
+  wca_z_understand:
+    case_version: 2.0.1
+    csv_version: 2.0.1
+    sub_channel: v2.0
+    cr_version: 2.8.302
+    operator_version: 2.0.1
