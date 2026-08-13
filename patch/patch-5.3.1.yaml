@@ -290,15 +290,15 @@ patch_components_meta:
     sub_channel: "v3.4"
     cr_version: 3.4.9
    watsonx_data:
-    case_version: 6.6.0
-    sub_channel: "v6.6"
-    csv_version: 6.6.0
-    cr_version: 2.3.6
+    case_version: 6.1.11
+    sub_channel: "v6.1"
+    csv_version: 6.1.11
+    cr_version: 2.3.11
   watsonx_data_premium:
-    case_version: 6.6.0
-    sub_channel: "v6.6"
-    csv_version: 6.6.0
-    cr_version: 2.3.6
+    case_version: 6.1.11
+    sub_channel: "v6.1"
+    csv_version: 6.1.11
+    cr_version: 2.3.11
   watsonx_dataintegration:
     case_version: 2.4.7
     sub_channel: "v2.47"
