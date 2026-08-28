@@ -1,7 +1,7 @@
 patch_components_meta:
   patch_info:
     patch_id: 12
-    patch_date: 2026-08-26
+    patch_date: "2026-08-26"
   analyticsengine:
     case_version: 12.1.11
     sub_channel: v9.11.0
